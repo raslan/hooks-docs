@@ -2,6 +2,10 @@ import Callout from 'nextra-theme-docs/callout'
 
 # useImmediateInterval
 
+<Callout type="info" emoji="ℹ️">
+  Available starting in version 2.2.2
+</Callout>
+
 useImmediateInterval allows you to call a function at a given interval, much like [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/setInterval), with the advantage of not having to wrap it in complex behaviors in `useEffect` to clear the interval or reset.
 
 The only difference between this and [useInterval](/usage/useInterval) is that the callback you provide will be called an extra time _immediately_ at the start before the interval begins counting. This is useful for "refresh" type actions where you want to immediately refresh the state of something and then every `delay` refresh again.
