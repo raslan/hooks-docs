@@ -1,6 +1,8 @@
 {
   "useInterval": "useInterval",
+  "useImmediateInterval": "useImmediateInterval",
   "useTimeout": "useTimeout",
+  "useImmediateTimeout": "useImmediateTimeout",
   "useCountdown": "useCountdown",
   "useCycle": "useCycle",
   "useInOut": "useInOut",
