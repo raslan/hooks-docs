@@ -1,10 +1,10 @@
 export default {
-  github: 'https://github.com/refolded/use-timing',
-  docsRepositoryBase: 'https://github.com/refolded/use-timing-docs',
-  titleSuffix: ' – use-timing',
+  github: 'https://github.com/refolded/hooks',
+  docsRepositoryBase: 'https://github.com/refolded/hooks-docs',
+  titleSuffix: ' – hooks',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">use-timing</span>
+      <span className="mr-2 font-extrabold hidden md:inline">hooks</span>
       {/* <span className="text-gray-600 font-normal hidden md:inline">
         React Library
       </span> */}
@@ -16,15 +16,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="use-timing Docs" />
-      <meta name="og:description" content="use-timing Docs" />
+      <meta name="description" content="hooks Docs" />
+      <meta name="og:description" content="hooks Docs" />
       <meta name="twitter:card" content="summary_large_image" />
       {/* <meta name="twitter:image" content="https://nextra.vercel.app/og.png" /> */}
       {/* <meta name="twitter:site:domain" content="nextra.vercel.app" /> */}
       {/* <meta name="twitter:url" content="https://nextra.vercel.app" /> */}
-      <meta name="og:title" content="use-timing Docs" />
+      <meta name="og:title" content="hooks Docs" />
       {/* <meta name="og:image" content="https://nextra.vercel.app/og.png" /> */}
-      <meta name="apple-mobile-web-app-title" content="use-timing Docs" />
+      <meta name="apple-mobile-web-app-title" content="hooks Docs" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
