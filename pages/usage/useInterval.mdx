@@ -6,13 +6,6 @@ useInterval allows you to call a function at a given interval, much like [setInt
 
 The added benefit of a custom react hook is that the delay is dynamic, so you can dynamically change the delay parameter and on the next render the interval will automatically re-initialize with the new delay.
 
-<Callout type="warning" emoji="⚠️">
-  From `v2.0` onwards, useInterval now returns an object containing `start` and
-  `stop` rather than an array. These are functions that allow you to pause and
-  unpause the interval at will. All hooks below also now return an object
-  instead of an array.
-</Callout>
-
 ```jsx
 import React, { useState } from 'react'
 import { useInterval } from '@refolded/hooks'
