@@ -1,0 +1,27 @@
+# useIntersectionObserver
+
+Calling this hook will return two things, a ref called `container` that you can attach to a React element to be observed and `isVisible`.
+
+Accepts an object containing common [Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) options.
+
+```jsx
+import { useState } from 'react'
+import { useIntersectionObserver } from '@refolded/hooks'
+
+const VisibilityCheck = () => {
+  const { container, isVisible } = useIntersectionObserver({
+    root: null,
+    rootMargin: '0px',
+    threshold: 1,
+  })
+
+  return (
+    <>
+      <span>{isVisible}</span>
+      <div>
+        <p ref={container}></p>
+      </div>
+    </>
+  )
+}
+```
