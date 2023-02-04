@@ -1,5 +1,5 @@
-# [use-timing-docs](https://use-timing-docs.vercel.app/)
+# [hooks-docs](https://hooks-docs.vercel.app/)
 
-Dedicated documenation for use-timing.
+Dedicated documenation for hooks.
 
 Built with Nextra
