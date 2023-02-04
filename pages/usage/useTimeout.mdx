@@ -9,13 +9,13 @@ The added benefit of a custom react hook is that the delay is dynamic, so you ca
 <Callout type="warning" emoji="⚠️">
   From `v2.0` onwards, useTimeout now returns an object containing `start` and
   `stop` rather than an array. These are functions that allow you to pause and
-  unpause the timeout at will. All hooks below also now return an object
-  instead of an array.
+  unpause the timeout at will. All hooks below also now return an object instead
+  of an array.
 </Callout>
 
 ```jsx
 import React, { useState } from 'react'
-import { useTimeout } from '@refolded/use-timing'
+import { useTimeout } from '@refolded/hooks'
 
 const App = () => {
   // Classic example with a counter
