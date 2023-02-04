@@ -1,14 +1,14 @@
 {
-  "name": "use-timing-docs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "hooks-docs",
+  "version": "2.0.0",
+  "description": "Documentation for hooks by the @refolded team.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "start": "next start",
     "build": "next build"
   },
-  "author": "Shu Ding",
+  "author": "refolded",
   "license": "MIT",
   "dependencies": {
     "next": "^12.1.0",
